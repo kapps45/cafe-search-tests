@@ -1,0 +1,52 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Go coverage
+*.out
+coverage.out
+
+# Build directories
+/bin/
+/dist/
+/build/
+
+# Go workspace
+vendor/
+go.work.sum
+
+# Environment & secrets
+.env
+.env.*
+*.key
+*.pem
+
+# IDEs & editors
+
+# VS Code
+.vscode/
+
+# GoLand / IntelliJ
+.idea/
+*.iml
+
+# Vim / Emacs
+*.swp
+*~
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs & cache
+*.log
+logs/
+.cache/
+tmp/
